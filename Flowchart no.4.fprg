@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 11:38:10 PM"/>
+        <attribute name="created" value="UEM7REVTS1RPUC0yNkE5MTI1OzIwMjMtMDgtMjQ7MTA6NTU6MjYgUE07MjM5Mg=="/>
+        <attribute name="edited" value="UEM7REVTS1RPUC0yNkE5MTI1OzIwMjMtMDgtMjQ7MTE6Mzg6MTAgUE07MjsyNDk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <if expression="A&gt;B">
+                <then>
+                    <output expression="A" newline="True"/>
+                </then>
+                <else>
+                    <output expression="false" newline="True"/>
+                </else>
+            </if>
+            <if expression="B&gt;C">
+                <then>
+                    <output expression="B" newline="True"/>
+                </then>
+                <else>
+                    <output expression="false" newline="True"/>
+                </else>
+            </if>
+            <if expression="C&gt;A">
+                <then>
+                    <output expression="A" newline="True"/>
+                </then>
+                <else>
+                    <output expression="false" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
